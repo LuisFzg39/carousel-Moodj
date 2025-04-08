@@ -28,12 +28,12 @@ class UserCarousel extends HTMLElement {
     
     if (this.users.length === 0) {
       this.users = [
-        { name: "Eli", username: "@elipinipon", avatar: "public/Pfp_icon1.png" },
-        { name: "Santiago", username: "@santiti", avatar: "public/Pfp_icon2.png" },
-        { name: "Luis F", username: "@terricola", avatar: "public/Pfp_icon3.png" },
-        { name: "Leider", username: "@leiderr.js", avatar: "public/Pfp_icon4.png" },
-        { name: "Isa", username: "@itsabella", avatar: "public/Pfp_icon5.png" },
-        { name: "Terry", username: "@not.terrypriv", avatar: "public/Pfp_icon6.png" },
+        { name: "Eli", username: "@elipinipon", avatar: "public/Pfp1.svg" },
+        { name: "Santiago", username: "@santiti", avatar: "public/Pfp2.svg" },
+        { name: "Luis F", username: "@terricola", avatar: "public/Pfp3.svg" },
+        { name: "Leider", username: "@leiderr.js", avatar: "public/Pfp4.svg" },
+        { name: "Isa", username: "@itsabella", avatar: "public/Pfp5.svg" },
+        { name: "Terry", username: "@not.terrypriv", avatar: "public/Pfp6.svg" },
       ]
     }
   }

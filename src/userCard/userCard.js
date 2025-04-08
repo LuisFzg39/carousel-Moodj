@@ -59,23 +59,21 @@ class UserCard extends HTMLElement {
                       display: flex;
                       align-items: center;
                       margin-bottom: 15px;
-                      margin-left: 8px;
-                      margin-top: 8px;
                   }
                   
                   .avatar {
-                      width: 50px;
-                      height: 50px;                      
+                      width: 72px;
+                      height: 72px;                      
                       display: flex;
                       justify-content: center;
                       align-items: center;
-                      margin-right: 10px;
+                      background-color: #121212;
+                      border-radius: 50%;
                   }
                   
                   .avatar img {
-                      width: 80px;
-                      height: 80px;
-                      object-fit: cover;
+                      width: 50px;
+                      height: 50px;
                   }
                   
                   .user-details {
