@@ -65,8 +65,7 @@ class UserCard extends HTMLElement {
                   
                   .avatar {
                       width: 50px;
-                      height: 50px;
-                      border-radius: 50%;
+                      height: 50px;                      
                       display: flex;
                       justify-content: center;
                       align-items: center;
@@ -74,9 +73,8 @@ class UserCard extends HTMLElement {
                   }
                   
                   .avatar img {
-                      width: 100%;
-                      height: 100%;
-                      border-radius: 50%;
+                      width: 80px;
+                      height: 80px;
                       object-fit: cover;
                   }
                   
@@ -108,6 +106,7 @@ class UserCard extends HTMLElement {
                       height: 39px;
                       align-self: center;
                       margin-bottom: 10px;
+                      transition: background-color 0.3s ease;
                   }
                   
                   .follow-btn:hover {
@@ -121,8 +120,8 @@ class UserCard extends HTMLElement {
                           <img src="${this.avatar || ""}" alt="${this.name || "User"}">
                       </div>
                       <div class="user-details">
-                          <h3>${this.name}</h3>
-                          <span class="username">${this.username}</span>
+                          <h3>${this.name || "User"}</h3>
+                          <span class="username">${this.username || "@username"}</span>
                       </div>
                   </div>
                   <button class="follow-btn">Follow</button>

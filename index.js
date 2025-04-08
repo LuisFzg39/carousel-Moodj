@@ -12,22 +12,16 @@ class AppContainer extends HTMLElement {
     }
   
     setupCarousel() {
-      // Example of how to set custom users programmatically
+      
       const carousel = this.shadowRoot.querySelector("user-carousel")
-      if (carousel) {
-        // You can set custom users if needed
-        // carousel.setUsers([
-        //     { name: "Custom User", username: "@custom", avatar: "path/to/avatar.png" },
-        //     // more users...
-        // ]);
-      }
+      
     }
   
     render() {
       this.shadowRoot.innerHTML = `
               <link rel="stylesheet" href="style.css" />
-              
-              <user-carousel title="You may know..."></user-carousel>
+                 
+              <user-carousel></user-carousel>
           `
     }
   }
